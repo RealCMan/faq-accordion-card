@@ -1,8 +1,38 @@
 html, body {
     min-height: 100vh;
-    margin: 0;
+    margin:0;
+    padding:0;
 }
 
 body {
     background: linear-gradient(#af68ea, #6663e8);
+}
+
+.main-box {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.right-side {
+    padding:5vh;
+}
+
+.faq-question {
+    color: hsl(240, 6%, 50%);
+    padding: 20px 20px;
+    font-weight: bold;
+}
+
+.faq-question:hover {
+    color: hsl(237, 12%, 33%);
+    font-weight: bolder;
+}
+
+.faq-answer {
+    display: none;
 }
